@@ -10,16 +10,34 @@ title: "Econ115a: Econometrics Lab"
 
 ### Course description
 
-Introduction to survey research and survey data analysis using R programming.
+This laboratory course offers a practical, data-driven introduction to statistical methods used in economic research and policy analysis, with a particular focus on survey data. Students will engage with both foundational and advanced techniques for analyzing real-world datasets, emphasizing hands-on implementation, critical interpretation, and reproducible reporting.
+
+Key topics include:
+
+- Fundamentals of statistical inference and data exploration
+- Survey design and measurement reliability
+- Assumption testing and model diagnostics
+- Correlation analysis and regression modeling (linear, logistic, and limited-dependent)
+- Hypothesis testing for means and group comparisons
+- Non-parametric statistical techniques
+- Multivariate methods including exploratory factor analysis
+
+Students will use R—a powerful statistical programming language—to clean and visualize data, conduct analyses, and generate publication-ready outputs. By the end of the course, students will be equipped to design surveys, analyze empirical data, and communicate findings with clarity, rigor, and policy relevance.
+
 
 ### Course objectives
 
--   Create a valid and reliable survey questionnaire and survey codebook.
--   Perform exploratory data analysis on survey data using R programming.
--   Perform Parametric and Non-Parametric Test on Means using R.
--   Perform correlation analysis and build a regression model explaining relationship of certain economic variables in R.
--   Perform regression analysis on limited dependent variables in R.
--   Perform various techniques of multivariate data analysis in the R statistical software.
+By the end of the course, students will be able to:
+
+- Design and implement valid survey instruments
+- Conduct exploratory data analysis (EDA) on survey datasets
+- Evaluate statistical assumptions and model fit
+- Apply correlation and regression techniques, including models for limited-dependent variables
+- Perform parametric and non-parametric hypothesis tests
+- Implement multivariate techniques such as factor analysis and clustering
+- Use R for data wrangling, visualization, and reproducible reporting
+- Interpret and communicate statistical findings in academic and policy contexts
+- Critically assess empirical research for methodological soundness and relevance
 
 ### Course outline
 

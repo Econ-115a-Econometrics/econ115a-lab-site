@@ -4,11 +4,11 @@ project:
 
 website:
   page-navigation: true
-  title: "Econ 148"
+  title: "Econ115a lab"
   favicon: "plot/econ115a-hex-logo.png"
   
-  repo-url: https://github.com/econ148-analytical-stat-package
-  site-url: https://econ148-analytical-stat-package.github.io/econ148-site/
+  repo-url: https://github.com/Econ-115a-Econometrics/econ115a-lab-site
+  site-url: https://econ-115a-econometrics.github.io/econ115a-lab-site/
   
   sidebar:
     style: docked
