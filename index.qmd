@@ -1,10 +1,10 @@
 ---
-title: "Econ 148: Analytical and statistical packages for economics 1"
+title: "Econ115a: Econometrics Lab"
 ---
 
 <br>
 
-**Class schedule:** Wednesday \| 13:00 - 15:00 <br> **Laboratory schedule:** Wednesday \| 16:00 - 19:00 <br> **Instructor:** Christopher Llones <br> **e-mail:** christopher.llones\@vsu.edu.ph <br> **Pre-requisites:** Econ 115 - Econometrics <br> **Course credits:** 3 units <br> **Number of hours:** 2 hrs lectures and 3 hrs laboratory per week <br>
+**Laboratory schedule:** Wednesday \| 13:00 - 16:00 <br> **Instructor:** Christopher Llones <br> **e-mail:** christopher.llones\@vsu.edu.ph <br> **Pre-requisites:** Stat21 or introductory statistics <br> **Course credits:** 3 units <br> **Number of hours:** 2 hrs lectures and 3 hrs laboratory per week <br>
 
 ------------------------------------------------------------------------
 
