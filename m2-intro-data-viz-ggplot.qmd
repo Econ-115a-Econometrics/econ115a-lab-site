@@ -1,0 +1,37 @@
+---
+title: "Module 2: Intro to data visualization using ggplot2"
+---
+
+1.  The grammar of graphics
+2.  Datasets and mapping
+3.  Geometries
+4.  Statistical transformation and plotting distribution
+5.  Position adjustment and scales
+6.  Coordinates and themes
+7.  Facets and custom plots
+
+<a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-ggplot" target="_blank" class="btn-slides">View slides in new window</a>
+
+::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
+<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-ggplot" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+
+</iframe>
+:::
+
+#### Presentation keyboard shortcuts
+
+::: text-line-space
+<ul>
+
+<li>Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides</li>
+
+<li>Use <kbd>F</kbd> to toggle full screen</li>
+
+<li>Use <kbd>O</kbd> to view an overview of all slides</li>
+
+<li>Use <kbd>?</kbd> to see a list of other shortcuts</li>
+
+</ul>
+:::
+
+

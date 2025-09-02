@@ -1,0 +1,160 @@
+---
+title: "Module 1: Intro to R programming"
+---
+
+1.  R objects
+2.  R packages
+3.  Reading data in R
+4.  Basic data wrangling
+
+<a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-r" target="_blank" class="btn-slides">View slides in new window</a>
+
+::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
+<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-r" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+
+</iframe>
+:::
+
+:::: callout-tip
+## Presentation keyboard shortcuts
+
+::: text-line-space
+<ul>
+
+<li>Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides</li>
+
+<li>Use <kbd>F</kbd> to toggle full screen</li>
+
+<li>Use <kbd>O</kbd> to view an overview of all slides</li>
+
+<li>Use <kbd>?</kbd> to see a list of other shortcuts</li>
+
+</ul>
+:::
+::::
+
+<br>
+
+## Exercises
+
+1.  Install [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://posit.co/download/rstudio-desktop/) on your computer.
+
+2.  Download the entire folder `00-module-intro-r` from the [Google Drive link](https://drive.google.com/drive/folders/10EwKKO1SxHdZSWWO1ko2WUFIOIRZM0HU?usp=sharing). For the meantime, keep the folder in your computer and wait for further instructions during the class.
+
+3.  Before the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.
+
+```{r}
+#| eval: false
+
+## install required packages
+install.packages(c("janitor", "readxl", "haven", "tidyverse", "skimr"))
+```
+
+::: callout-warning
+## Important
+
+Please make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.
+:::
+
+## Class demonstration in progress
+
+``` r
+
+# INTRO TO R AND BASIC DATA WRANGLING ----
+
+## Install packages
+# install.packages("readr")
+# install.packages(c("janitor", "readxl", "haven", "tidyverse", "skimr"))
+
+
+# 1. R Packages ----
+library(readr) # reading csv files
+library(readxl) # reading excel files
+library(haven) # reading spss, sas, stata files
+library(tidyverse) # load all packages under tidyverse environment
+library(dplyr) # for data wrangling
+library(skimr) # quick exploration of your data
+library(janitor) # quick cleaning of dataset
+library(gapminder)
+
+
+# 2. Set the working directory ----
+setwd("D:/Githu-repository/econ148-analytical-stat-packages/148-class-demo/00-module-intro-r")
+
+
+
+# 3. Reading data into R ----
+
+## 3.1 CSV files
+### Load swimming_pools.csv files using the read_csv() function
+swim_data <- read_csv("sample_dataset/swimming_pools.csv")
+swim_data
+
+### Load potatoes.csv using read_csv() and read.csv()
+#### Observe the difference in the output
+
+potato_data <- read_csv("sample_dataset/potatoes.csv")
+potato_data_2 <- read.csv("sample_dataset/potatoes.csv")
+
+View(potato_data)
+
+
+
+## 3.2 Excel files
+### Load urban_pop files and use the read_xls() and read_excel() functions
+### Save the data into a variable named urban_pop
+
+urban_pop <- read_xls("sample_dataset/urbanpop.xls")
+
+
+
+### Transform the urban_pop data into long-format
+
+
+
+## 3.2 SPSS files
+### Load HBAT.sav
+
+hbat_data <- read_sav("sample_dataset/HBAT.sav")
+
+### Load data from Stata online @ https://www.stata-press.com/data/r9/u.html
+### Use the link http://www.stata-press.com/data/r9/auto.dta and save the data into a variable named auto
+
+auto_data <- read_dta("http://www.stata-press.com/data/r9/auto.dta")
+
+
+## 3.3 Load SAS data
+### Read the SAS data from the eventrepository.sas7bdat file
+### Clean the variable names using the clean_names() function from janitor package
+
+event_data <- read_sas("sample_dataset/eventrepository.sas7bdat")
+event_data <- clean_names(event_data)
+
+# 4. Basic data wrangling with tidyverse ----
+### Use gapminder dataset from gapminder package and save it into a variable named gapminder_data
+
+gapminder_data <- gapminder::gapminder
+
+## 4.1 filter() ----
+### Using the gapminder_data, filter dataset for the year 1957
+gapminder_1957 <- filter(gapminder_data, year == 1957)
+
+
+### Now, filter for Philippines in 2002
+filter(gapminder_data, year < 2000, country == "Philippines")
+filter(gapminder_data, country == "Philippines")
+
+### Filter for the year 1957, then arrange in descending order of population
+filter(gapminder_data, year == 1957)
+
+arrange(filter(gapminder_data, year == 1957), desc(pop))
+
+gapminder_data |> 
+  filter(year == 1957) |> 
+  arrange(pop)
+
+
+
+## 4.2 mutate() ----
+### Use mutate to compute for GDP
+```

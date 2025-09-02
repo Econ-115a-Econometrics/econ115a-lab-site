@@ -1,0 +1,71 @@
+/* css styles */
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap';
+
+$font-family: Arial, Montserrat, sans-serif;
+$link-color: #75AADB;
+$hover-color: darken($link-color, 1%);
+
+/*-- scss:rules --*/
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  
+  &:hover{
+    color: $hover-color;
+  }
+}
+
+h1 {
+  color: #14213d;
+}
+
+h2 {
+  color: #14213d;
+}
+
+h3 {
+  color: #14213d;
+}
+
+th {
+  color: #14213d;
+  text-align: center;
+}
+
+
+td {
+  font-size: 0.9rem;
+}
+
+
+.text-line-space {
+  line-height: 200%;
+}
+
+
+.box {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+
+.btn-slides {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  border: 1px solid #b4b4b4;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 5px;
+  display: inline-block;
+}
+
+
+.btn-slides:hover {
+  transform: rotate(1deg);
+  font-weight: bolder;
+}

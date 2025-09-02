@@ -1,0 +1,35 @@
+---
+title: "Module 4: Survey research design"
+---
+
+1.  Methods of data collection
+2.  Sampling desing in surveys
+3.  Measurement issues in survey research
+4.  Questionnaire construction
+5.  Basics of interviewing
+6.  Creating codebook
+7.  Data entry
+
+<a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-1/" target="_blank" class="btn-slides">View slides in new window</a>
+
+::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
+<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-1/" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+
+</iframe>
+:::
+
+#### Presentation keyboard shortcuts
+
+::: text-line-space
+<ul>
+
+<li>Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides</li>
+
+<li>Use <kbd>F</kbd> to toggle full screen</li>
+
+<li>Use <kbd>O</kbd> to view an overview of all slides</li>
+
+<li>Use <kbd>?</kbd> to see a list of other shortcuts</li>
+
+</ul>
+:::

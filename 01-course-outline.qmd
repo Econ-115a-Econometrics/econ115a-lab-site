@@ -1,0 +1,41 @@
+---
+title: "Course outline"
+---
+
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week       | Topics                                              | Lessons                                                                                    | Activities |
++============+=====================================================+============================================================================================+============+
+| Week 1-2   | Foundation of academic writing                      | -   Overview of academic writing genres and their purposes.                                |            |
+|            |                                                     | -   Discussion of the key principles of academic writing.                                  |            |
+|            |                                                     | -   Introduction to the structure of academic papers.                                      |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week 3-4   | Developing research methods                         | -   Formulating research topics and research questions.                                    |            |
+|            |                                                     | -   Identifying relevant literature and conducting a literature review.                    |            |
+|            |                                                     | -   Developing a thesis statement and creating an outline for a research paper.            |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week 5-6   | Writing first darf                                  | -   Writing effective introductions and conclusions.                                       |            |
+|            |                                                     | -   Crafting clear and concise methods and results section.                                |            |
+|            |                                                     | -   Writing persuasive literature and discussions.                                         |            |
+|            |                                                     | -   Using appropriate language and tone in academic writing.                               |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week 7-8   | Revising and editing                                | -   Strategies for revising and editing academic writing.                                  |            |
+|            |                                                     | -   Peer review and feedback exercises.                                                    |            |
+|            |                                                     | -   Using tools and resources for editing and proofreading.                                |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week 9-10  | Navigating peer-review process                      | -   Overview of the peer-review process in academic publishing.                            |            |
+|            |                                                     | -   Selecting appropriate journals for submission.                                         |            |
+|            |                                                     | -   Preparing manuscripts for submission.                                                  |            |
+|            |                                                     | -   Responding to reviewer feedback and revising manuscripts.                              |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week 11-12 | Ethical considerations in publishing                | -   Discussion of plagiarism, authorship, and other ethical issues in academic publishing. |            |
+|            |                                                     | -   Introduction to copyright and intellectual property.                                   |            |
+|            |                                                     | -   Exploration of open access and alternative publishing models.                          |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week 13-14 | Conference presentation and other scholarly outputs | -   Preparing and delivering effective conference presentations.                           |            |
+|            |                                                     | -   Writing conference abstracts and proposal.                                             |            |
+|            |                                                     | -   Exploring other scholarly outputs.                                                     |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+
+| Week 15-16 | Final project presentations and discussion          | -   Presentation of final research papers and other scholarly projects.                    |            |
+|            |                                                     | -   Discussion and feedback from peers and instructor.                                     |            |
+|            |                                                     | -   Reflections on the course and future goals in academic writing and publishing.         |            |
++------------+-----------------------------------------------------+--------------------------------------------------------------------------------------------+------------+

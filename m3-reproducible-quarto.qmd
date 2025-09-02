@@ -1,0 +1,35 @@
+---
+title: "Module 3: Reproducible report with Quarto in R"
+---
+
+1.  Introduction to Quarto
+
+2.  Quarto document elements
+
+3.  Exercise: generating reports
+
+4.  Improving report
+
+<a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-reproducible-report" target="_blank" class="btn-slides">View slides in new window</a>
+
+::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
+<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-reproducible-report" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+
+</iframe>
+:::
+
+#### Presentation keyboard shortcuts
+
+::: text-line-space
+<ul>
+
+<li>Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides</li>
+
+<li>Use <kbd>F</kbd> to toggle full screen</li>
+
+<li>Use <kbd>O</kbd> to view an overview of all slides</li>
+
+<li>Use <kbd>?</kbd> to see a list of other shortcuts</li>
+
+</ul>
+:::
