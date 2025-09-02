@@ -1,4 +1,4 @@
-# 📊 Econ115A Econometrics Lab - class website
+# 📊 Econ115a econometrics - laboratory
 
 Welcome to the official repository for **Econ115A: Econometrics**, a hands-on lab-based course designed to build foundational and applied skills in data analysis, statistical modeling, and policy-relevant research using R and Quarto.
 
