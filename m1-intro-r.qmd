@@ -7,10 +7,10 @@ title: "Module 1: Intro to R programming"
 3.  Reading data in R
 4.  Basic data wrangling
 
-<a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-r" target="_blank" class="btn-slides">View slides in new window</a>
+<a href="https://econ-115a-econometrics.github.io/econ115a-econometrics-lab/module-01-intro-r" target="_blank" class="btn-slides">View slides in new window</a>
 
 ::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
-<iframe width="100%" height="100%" src="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-intro-r" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+<iframe width="100%" height="100%" src="https://econ-115a-econometrics.github.io/econ115a-econometrics-lab/module-01-intro-r" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
 
 </iframe>
 :::
