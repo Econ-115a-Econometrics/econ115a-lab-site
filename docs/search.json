@@ -80,7 +80,7 @@
     "href": "01-assignment1-coffee-sales.html#instructions",
     "title": "Econ115a lab",
     "section": "Instructions",
-    "text": "Instructions\n\nUse R and the dplyr package to answer each question.\nSubmit your R script file (.R) with your code and outputs.\nUse the pipe operator (%&gt;%) for all data manipulations.\nYou may use additional packages like lubridate, ggplot2, or stringr if needed.\nEnsure your code is clean, commented, and reproducible.\n\n\n\n\n\n\n\nDataset and files\n\n\n\n\nAccess the dataset and R script template from the agec211-assignment1 folder.\nSubmit your completed R script file (.R) by the due date and upload using this link: Submission Link.",
+    "text": "Instructions\n\nUse R and the dplyr package to answer each question.\nSubmit your R script file (.R) with your code and outputs.\nUse the pipe operator (%&gt;%) for all data manipulations.\nYou may use additional packages like lubridate, ggplot2, or stringr if needed.\nEnsure your code is clean, commented, and reproducible.\n\n\n\n\n\n\n\nDataset and files\n\n\n\n\nAccess the dataset and R script template from the econ115a-assignment1 folder.\nSubmit your completed R script file (.R) by the due date and upload using this link: Submission Link.",
     "crumbs": [
       "Topics",
       "Module 1 assignment"

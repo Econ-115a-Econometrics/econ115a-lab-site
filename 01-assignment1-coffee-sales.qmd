@@ -27,7 +27,7 @@ This assignment will help you apply R programming skills to analyze real-world s
 ::: callout-tip
 ## Dataset and files
 
-1. Access the dataset and R script template from the [agec211-assignment1](https://drive.google.com/drive/folders/1F6hD1r-roRAdwbJiM7tzIdOsZFpW36mX?usp=sharing) folder.
+1. Access the dataset and R script template from the [econ115a-assignment1](https://drive.google.com/drive/folders/1eOdlTs4Rwh67kf8hfMv1fYl0xxrH4FRm?usp=sharing) folder.
 
 2. Submit your completed R script file (.R) by the due date and upload using this link: [Submission Link]().
 :::
