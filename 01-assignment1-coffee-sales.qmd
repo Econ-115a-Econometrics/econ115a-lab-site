@@ -1,0 +1,89 @@
+---
+title: ""
+---
+
+![](plot/econ115a-assignment1.png)
+
+**Course title**: Econ115a: Econometrics <br> **Instructor**: Christopher Llones <br> **Assignment**: Coffee Sales Dataset Analysis in R <br> **Due Date**: 15 October 2025
+
+
+## Objective
+
+This assignment will help you apply R programming skills to analyze real-world sales data from a coffee shop. You’ll use `dplyr` and other relevant packages to explore customer behavior, beverage preferences, and sales performance across time and payment methods.
+
+
+## Instructions
+
+- Use R and the `dplyr` package to answer each question.
+
+- Submit your R script file (.R) with your code and outputs.
+
+- Use the pipe operator (`%>%`) for all data manipulations.
+
+- You may use additional packages like `lubridate`, `ggplot2`, or `stringr` if needed.
+
+- Ensure your code is clean, commented, and reproducible.
+
+::: callout-tip
+## Dataset and files
+
+1. Access the dataset and R script template from the [agec211-assignment1](https://drive.google.com/drive/folders/1F6hD1r-roRAdwbJiM7tzIdOsZFpW36mX?usp=sharing) folder.
+
+2. Submit your completed R script file (.R) by the due date and upload using this link: [Submission Link]().
+:::
+
+
+## Questions
+
+**Part 1: Data exploration**
+
+1. How many rows and columns are in the dataset?
+
+2. List all unique coffee types sold.
+
+3. What are the earliest and latest transaction dates?
+
+**Part 2: sales behavior**
+
+4. What is the total revenue generated across all transactions?
+
+5. Which beverage type generated the highest total sales?
+
+6. What is the average amount spent per transaction?
+
+**Part 3: time-based analysis**
+
+7.  Which time of day (Morning, Afternoon, Evening) had the highest average spending?
+
+8. Which weekday had the most transactions?
+
+9. What is the most popular beverage during the evening?
+
+**Part 4: payment method insights**
+
+10. Compare total revenue between cash and card payments.
+
+11. What percentage of transactions were made using card?
+
+12. Is there a noticeable spending difference between payment methods?
+
+
+**Bonus Challenge**
+
+13. Create a monthly summary of total sales. Which month had the highest revenue?
+
+14. Identify any beverage that consistently appears in high-spending transactions (above ₱35).
+
+
+
+## Grading rubrics
+
+| Criteria | Excellent (5pts) | Good (4pts) | Fair (2-3 pts) | Needs improvement (0-1 pt) |
+|---------------|---------------|---------------|---------------|---------------|
+| **Code accuracy** | All answers are correct and match expected outputs. | Most answers are correct with minor errors. | Several answers are incorrect or incomplete. | Many answers are missing or incorrect. |
+| **Use of** `dplyr` **Functions** | Consistently uses appropriate `dplyr` verbs (`filter`, `mutate`, `summarise`, etc.). | Uses `dplyr` functions correctly in most cases. | Uses some `dplyr` functions but inconsistently or incorrectly. | Rarely uses `dplyr` or misuses functions. |
+| **Pipe Operator Usage (**`%>%`**)** | Pipe operator is used fluently and correctly throughout. | Mostly correct usage with occasional syntax issues. | Used sporadically or with frequent errors. | Not used or used incorrectly. |
+| **Data Manipulation & Filtering** | Demonstrates strong understanding of filtering, grouping, and summarizing. | Shows good grasp with minor gaps. | Basic filtering and grouping attempted but lacks depth. | Little to no meaningful data manipulation. |
+| **Insight & Interpretation** | Provides thoughtful insights or observations where applicable. | Some interpretation is present. | Minimal interpretation or unclear reasoning. | No interpretation or irrelevant commentary. |
+| **Bonus Challenge (Q13–Q14)** | Completed with correct logic and creative approach. | Attempted with mostly correct logic. | Attempted but contains errors or lacks clarity. | Not attempted or incorrect. |
+| **Reproducibility** | Code runs without errors and produces expected results. | Minor issues but generally reproducible. | Some errors prevent full reproducibility. | Code fails to run or produces major errors. |

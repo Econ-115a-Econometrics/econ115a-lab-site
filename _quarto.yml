@@ -22,6 +22,8 @@ website:
         contents:
           - href: "m1-intro-r.qmd"
             text: "Module 1: Introduction to R programming"
+          - href: "01-assignment1-coffee-sales.qmd"
+            text: "Module 1 assignment"
           - href: "m2-intro-data-viz-ggplot.qmd"
             text: "Module 2: Intro to data visualization using ggplot2"
           - href: ""

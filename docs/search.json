@@ -54,6 +54,61 @@
     "text": "Week\nTopics\nLessons\nActivities\n\n\n\n\nWeek 1-2\nFoundation of academic writing\n\nOverview of academic writing genres and their purposes.\nDiscussion of the key principles of academic writing.\nIntroduction to the structure of academic papers.\n\n\n\n\nWeek 3-4\nDeveloping research methods\n\nFormulating research topics and research questions.\nIdentifying relevant literature and conducting a literature review.\nDeveloping a thesis statement and creating an outline for a research paper.\n\n\n\n\nWeek 5-6\nWriting first darf\n\nWriting effective introductions and conclusions.\nCrafting clear and concise methods and results section.\nWriting persuasive literature and discussions.\nUsing appropriate language and tone in academic writing.\n\n\n\n\nWeek 7-8\nRevising and editing\n\nStrategies for revising and editing academic writing.\nPeer review and feedback exercises.\nUsing tools and resources for editing and proofreading.\n\n\n\n\nWeek 9-10\nNavigating peer-review process\n\nOverview of the peer-review process in academic publishing.\nSelecting appropriate journals for submission.\nPreparing manuscripts for submission.\nResponding to reviewer feedback and revising manuscripts.\n\n\n\n\nWeek 11-12\nEthical considerations in publishing\n\nDiscussion of plagiarism, authorship, and other ethical issues in academic publishing.\nIntroduction to copyright and intellectual property.\nExploration of open access and alternative publishing models.\n\n\n\n\nWeek 13-14\nConference presentation and other scholarly outputs\n\nPreparing and delivering effective conference presentations.\nWriting conference abstracts and proposal.\nExploring other scholarly outputs.\n\n\n\n\nWeek 15-16\nFinal project presentations and discussion\n\nPresentation of final research papers and other scholarly projects.\nDiscussion and feedback from peers and instructor.\nReflections on the course and future goals in academic writing and publishing."
   },
   {
+    "objectID": "01-assignment1-coffee-sales.html",
+    "href": "01-assignment1-coffee-sales.html",
+    "title": "Econ115a lab",
+    "section": "",
+    "text": "Course title: Econ115a: Econometrics  Instructor: Christopher Llones  Assignment: Coffee Sales Dataset Analysis in R  Due Date: 15 October 2025",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment1-coffee-sales.html#objective",
+    "href": "01-assignment1-coffee-sales.html#objective",
+    "title": "Econ115a lab",
+    "section": "Objective",
+    "text": "Objective\nThis assignment will help you apply R programming skills to analyze real-world sales data from a coffee shop. You’ll use dplyr and other relevant packages to explore customer behavior, beverage preferences, and sales performance across time and payment methods.",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment1-coffee-sales.html#instructions",
+    "href": "01-assignment1-coffee-sales.html#instructions",
+    "title": "Econ115a lab",
+    "section": "Instructions",
+    "text": "Instructions\n\nUse R and the dplyr package to answer each question.\nSubmit your R script file (.R) with your code and outputs.\nUse the pipe operator (%&gt;%) for all data manipulations.\nYou may use additional packages like lubridate, ggplot2, or stringr if needed.\nEnsure your code is clean, commented, and reproducible.\n\n\n\n\n\n\n\nDataset and files\n\n\n\n\nAccess the dataset and R script template from the agec211-assignment1 folder.\nSubmit your completed R script file (.R) by the due date and upload using this link: Submission Link.",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment1-coffee-sales.html#questions",
+    "href": "01-assignment1-coffee-sales.html#questions",
+    "title": "Econ115a lab",
+    "section": "Questions",
+    "text": "Questions\nPart 1: Data exploration\n\nHow many rows and columns are in the dataset?\nList all unique coffee types sold.\nWhat are the earliest and latest transaction dates?\n\nPart 2: sales behavior\n\nWhat is the total revenue generated across all transactions?\nWhich beverage type generated the highest total sales?\nWhat is the average amount spent per transaction?\n\nPart 3: time-based analysis\n\nWhich time of day (Morning, Afternoon, Evening) had the highest average spending?\nWhich weekday had the most transactions?\nWhat is the most popular beverage during the evening?\n\nPart 4: payment method insights\n\nCompare total revenue between cash and card payments.\nWhat percentage of transactions were made using card?\nIs there a noticeable spending difference between payment methods?\n\nBonus Challenge\n\nCreate a monthly summary of total sales. Which month had the highest revenue?\nIdentify any beverage that consistently appears in high-spending transactions (above ₱35).",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
+    "objectID": "01-assignment1-coffee-sales.html#grading-rubrics",
+    "href": "01-assignment1-coffee-sales.html#grading-rubrics",
+    "title": "Econ115a lab",
+    "section": "Grading rubrics",
+    "text": "Grading rubrics\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (5pts)\nGood (4pts)\nFair (2-3 pts)\nNeeds improvement (0-1 pt)\n\n\n\n\nCode accuracy\nAll answers are correct and match expected outputs.\nMost answers are correct with minor errors.\nSeveral answers are incorrect or incomplete.\nMany answers are missing or incorrect.\n\n\nUse of dplyr Functions\nConsistently uses appropriate dplyr verbs (filter, mutate, summarise, etc.).\nUses dplyr functions correctly in most cases.\nUses some dplyr functions but inconsistently or incorrectly.\nRarely uses dplyr or misuses functions.\n\n\nPipe Operator Usage (%&gt;%)\nPipe operator is used fluently and correctly throughout.\nMostly correct usage with occasional syntax issues.\nUsed sporadically or with frequent errors.\nNot used or used incorrectly.\n\n\nData Manipulation & Filtering\nDemonstrates strong understanding of filtering, grouping, and summarizing.\nShows good grasp with minor gaps.\nBasic filtering and grouping attempted but lacks depth.\nLittle to no meaningful data manipulation.\n\n\nInsight & Interpretation\nProvides thoughtful insights or observations where applicable.\nSome interpretation is present.\nMinimal interpretation or unclear reasoning.\nNo interpretation or irrelevant commentary.\n\n\nBonus Challenge (Q13–Q14)\nCompleted with correct logic and creative approach.\nAttempted with mostly correct logic.\nAttempted but contains errors or lacks clarity.\nNot attempted or incorrect.\n\n\nReproducibility\nCode runs without errors and produces expected results.\nMinor issues but generally reproducible.\nSome errors prevent full reproducibility.\nCode fails to run or produces major errors.",
+    "crumbs": [
+      "Topics",
+      "Module 1 assignment"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Econ115a: Econometrics Lab",
