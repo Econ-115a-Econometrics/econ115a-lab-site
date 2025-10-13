@@ -42,6 +42,11 @@ website:
             text: "Module 9: non-parametric tests"
           - href: ""
             text: "Module 10: Exploratory factor analysis (EFA)"
+            
+      - section: "Assignment"
+        contents:
+          - href: "01-assignment1-coffee-sales.qmd"
+            text: "Module 1 assignment"
 
 format:
   html:

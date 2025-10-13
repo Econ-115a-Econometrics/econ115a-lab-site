@@ -6,58 +6,55 @@ title: ""
 
 **Course title**: Econ115a: Econometrics <br> **Instructor**: Christopher Llones <br> **Assignment**: Coffee Sales Dataset Analysis in R <br> **Due Date**: 15 October 2025
 
-
 ## Objective
 
 This assignment will help you apply R programming skills to analyze real-world sales data from a coffee shop. You’ll use `dplyr` and other relevant packages to explore customer behavior, beverage preferences, and sales performance across time and payment methods.
 
-
 ## Instructions
 
-- Use R and the `dplyr` package to answer each question.
+-   Use R and the `dplyr` package to answer each question.
 
-- Submit your R script file (.R) with your code and outputs.
+-   Submit your R script file (.R) with your code and outputs.
 
-- Use the pipe operator (`%>%`) for all data manipulations.
+-   Use the pipe operator (`%>%`) for all data manipulations.
 
-- You may use additional packages like `lubridate`, `ggplot2`, or `stringr` if needed.
+-   You may use additional packages like `lubridate`, `ggplot2`, or `stringr` if needed.
 
-- Ensure your code is clean, commented, and reproducible.
+-   Ensure your code is clean, commented, and reproducible.
 
 ::: callout-tip
 ## Dataset and files
 
-1. Access the dataset and R script template from the [econ115a-assignment1](https://drive.google.com/drive/folders/1eOdlTs4Rwh67kf8hfMv1fYl0xxrH4FRm?usp=sharing) folder.
+1.  Access the dataset and R script template from the [econ115a-assignment1](https://drive.google.com/drive/folders/1eOdlTs4Rwh67kf8hfMv1fYl0xxrH4FRm?usp=sharing) folder.
 
-2. Submit your completed R script file (.R) by the due date and upload using this link: [Submission Link]().
+2.  Submit your completed R script file (.R) by the due date and upload using this link: [Submission Link](https://forms.gle/o4e5StvEm5VBbH3J7).
 :::
-
 
 ## Questions
 
 **Part 1: Data exploration**
 
-1. How many rows and columns are in the dataset?
+1.  How many rows and columns are in the dataset?
 
-2. List all unique coffee types sold.
+2.  List all unique coffee types sold.
 
-3. What are the earliest and latest transaction dates?
+3.  What are the earliest and latest transaction dates?
 
 **Part 2: sales behavior**
 
-4. What is the total revenue generated across all transactions?
+4.  What is the total revenue generated across all transactions?
 
-5. Which beverage type generated the highest total sales?
+5.  Which beverage type generated the highest total sales?
 
-6. What is the average amount spent per transaction?
+6.  What is the average amount spent per transaction?
 
 **Part 3: time-based analysis**
 
 7.  Which time of day (Morning, Afternoon, Evening) had the highest average spending?
 
-8. Which weekday had the most transactions?
+8.  Which weekday had the most transactions?
 
-9. What is the most popular beverage during the evening?
+9.  What is the most popular beverage during the evening?
 
 **Part 4: payment method insights**
 
@@ -67,14 +64,11 @@ This assignment will help you apply R programming skills to analyze real-world s
 
 12. Is there a noticeable spending difference between payment methods?
 
-
 **Bonus Challenge**
 
 13. Create a monthly summary of total sales. Which month had the highest revenue?
 
 14. Identify any beverage that consistently appears in high-spending transactions (above ₱35).
-
-
 
 ## Grading rubrics
 
