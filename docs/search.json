@@ -1,57 +1,71 @@
 [
   {
-    "objectID": "m5-exploratory-data-analysis.html",
-    "href": "m5-exploratory-data-analysis.html",
-    "title": "Module 5: exploratory data analysis",
-    "section": "",
-    "text": "Overview of EDA\nCentrality and variability\nAmounts and proportions\nComparisons\nTrends\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
-  },
-  {
-    "objectID": "m3-reproducible-quarto.html",
-    "href": "m3-reproducible-quarto.html",
-    "title": "Module 3: Reproducible report with Quarto in R",
-    "section": "",
-    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
-  },
-  {
-    "objectID": "m1-intro-r.html",
-    "href": "m1-intro-r.html",
-    "title": "Module 1: Intro to R programming",
-    "section": "",
-    "text": "R objects\nR packages\nReading data in R\nBasic data wrangling\nView slides in new window",
+    "objectID": "term-01-midterm-project.html#scenario-interning-at-a-retail-analytics-firm",
+    "href": "term-01-midterm-project.html#scenario-interning-at-a-retail-analytics-firm",
+    "title": "Econ115a lab",
+    "section": "Scenario: Interning at a Retail Analytics Firm",
+    "text": "Scenario: Interning at a Retail Analytics Firm\nYou’ve joined Insight Retail Analytics, a firm that helps brands understand consumer behavior to improve marketing and product strategies. Your team has received a dataset containing 3,900 customer records, including demographics (age, gender, income), product categories, purchase amounts, and seasonal preferences.\nYour supervisor has asked you to explore this dataset using R and ggplot2 to uncover patterns in consumer spending. Your goal is to produce visual insights that can help retail managers understand customer behavior and tailor promotions.s decisions.",
     "crumbs": [
-      "Topics",
-      "Module 1: Introduction to R programming"
+      "Midterm and Finals projects",
+      "Midterm project: Shopping behavior analysis"
     ]
   },
   {
-    "objectID": "m1-intro-r.html#exercises",
-    "href": "m1-intro-r.html#exercises",
-    "title": "Module 1: Intro to R programming",
-    "section": "Exercises",
-    "text": "Exercises\n\nInstall R and RStudio on your computer.\nDownload the entire folder 00-module-intro-r from the Google Drive link. For the meantime, keep the folder in your computer and wait for further instructions during the class.\nBefore the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.\n\n\n## install required packages\ninstall.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n\n\n\n\n\nImportant\n\n\n\nPlease make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.",
+    "objectID": "term-01-midterm-project.html#dataset-description",
+    "href": "term-01-midterm-project.html#dataset-description",
+    "title": "Econ115a lab",
+    "section": "Dataset description",
+    "text": "Dataset description\nThe Shopping Behavior Dataset provides detailed records of 3,900 retail transactions, capturing key demographic and behavioral attributes of customers. It includes variables such as age, gender, income, product category, purchase amount, and seasonal preferences. This dataset is ideal for exploring consumer trends, visualizing spending patterns, and practicing data management and descriptive analytics using R. The table below summarizes each variable, its type, description, and typical values or ranges.\n\n\n\n\n\n\n\n\nDataset Summary\n\n\nShopping Customer Data (n = 3,900)\n\n\nVariable Name\nType\nDescription\nRange / Values\n\n\n\n\nCustomer ID\nInteger\nUnique ID for each shopper record\n1 to 3900\n\n\nAge\nNumeric\nCustomer's age in years\n18 to 70\n\n\nGender\nCategorical\nGender of the customer\nMale (68%), Female (32%)\n\n\nItem Purchased\nCategorical\nSpecific item bought\n25 unique items (e.g., Blouse, Pants)\n\n\nCategory\nCategorical\nType of product purchased\nClothing (45%), Accessories (32%), Other\n\n\nPurchase Amount (USD)\nNumeric\nTotal money spent on shopping\n$20 to $100 (Mean: $59.8)\n\n\nLocation\nCategorical\nGeographic area or city of shopper\n50 unique locations (e.g., Montana, California)\n\n\nSize\nCategorical\nSize of item purchased\nM (45%), L (27%), others\n\n\nColor\nCategorical\nColor of item purchased\n25 unique colors (e.g., Olive, Yellow)\n\n\nSeason\nCategorical\nSeason during which purchase occurred\nSpring (26%), Fall (25%), others",
     "crumbs": [
-      "Topics",
-      "Module 1: Introduction to R programming"
+      "Midterm and Finals projects",
+      "Midterm project: Shopping behavior analysis"
     ]
   },
   {
-    "objectID": "m1-intro-r.html#class-demonstration-in-progress",
-    "href": "m1-intro-r.html#class-demonstration-in-progress",
-    "title": "Module 1: Intro to R programming",
-    "section": "Class demonstration in progress",
-    "text": "Class demonstration in progress\n\n# INTRO TO R AND BASIC DATA WRANGLING ----\n\n## Install packages\n# install.packages(\"readr\")\n# install.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n# 1. R Packages ----\nlibrary(readr) # reading csv files\nlibrary(readxl) # reading excel files\nlibrary(haven) # reading spss, sas, stata files\nlibrary(tidyverse) # load all packages under tidyverse environment\nlibrary(dplyr) # for data wrangling\nlibrary(skimr) # quick exploration of your data\nlibrary(janitor) # quick cleaning of dataset\nlibrary(gapminder)\n\n\n# 2. Set the working directory ----\nsetwd(\"D:/Githu-repository/econ148-analytical-stat-packages/148-class-demo/00-module-intro-r\")\n\n\n\n# 3. Reading data into R ----\n\n## 3.1 CSV files\n### Load swimming_pools.csv files using the read_csv() function\nswim_data &lt;- read_csv(\"sample_dataset/swimming_pools.csv\")\nswim_data\n\n### Load potatoes.csv using read_csv() and read.csv()\n#### Observe the difference in the output\n\npotato_data &lt;- read_csv(\"sample_dataset/potatoes.csv\")\npotato_data_2 &lt;- read.csv(\"sample_dataset/potatoes.csv\")\n\nView(potato_data)\n\n\n\n## 3.2 Excel files\n### Load urban_pop files and use the read_xls() and read_excel() functions\n### Save the data into a variable named urban_pop\n\nurban_pop &lt;- read_xls(\"sample_dataset/urbanpop.xls\")\n\n\n\n### Transform the urban_pop data into long-format\n\n\n\n## 3.2 SPSS files\n### Load HBAT.sav\n\nhbat_data &lt;- read_sav(\"sample_dataset/HBAT.sav\")\n\n### Load data from Stata online @ https://www.stata-press.com/data/r9/u.html\n### Use the link http://www.stata-press.com/data/r9/auto.dta and save the data into a variable named auto\n\nauto_data &lt;- read_dta(\"http://www.stata-press.com/data/r9/auto.dta\")\n\n\n## 3.3 Load SAS data\n### Read the SAS data from the eventrepository.sas7bdat file\n### Clean the variable names using the clean_names() function from janitor package\n\nevent_data &lt;- read_sas(\"sample_dataset/eventrepository.sas7bdat\")\nevent_data &lt;- clean_names(event_data)\n\n# 4. Basic data wrangling with tidyverse ----\n### Use gapminder dataset from gapminder package and save it into a variable named gapminder_data\n\ngapminder_data &lt;- gapminder::gapminder\n\n## 4.1 filter() ----\n### Using the gapminder_data, filter dataset for the year 1957\ngapminder_1957 &lt;- filter(gapminder_data, year == 1957)\n\n\n### Now, filter for Philippines in 2002\nfilter(gapminder_data, year &lt; 2000, country == \"Philippines\")\nfilter(gapminder_data, country == \"Philippines\")\n\n### Filter for the year 1957, then arrange in descending order of population\nfilter(gapminder_data, year == 1957)\n\narrange(filter(gapminder_data, year == 1957), desc(pop))\n\ngapminder_data |&gt; \n  filter(year == 1957) |&gt; \n  arrange(pop)\n\n\n\n## 4.2 mutate() ----\n### Use mutate to compute for GDP",
+    "objectID": "term-01-midterm-project.html#your-mission-complete-the-following-10-tasks",
+    "href": "term-01-midterm-project.html#your-mission-complete-the-following-10-tasks",
+    "title": "Econ115a lab",
+    "section": "Your Mission: Complete the Following 10 Tasks",
+    "text": "Your Mission: Complete the Following 10 Tasks\n\nLoad and Inspect the Dataset\n\nLoad the CSV file into R.\nUse str(), summary(), and head() to inspect the structure and contents\nIdentify the number of observations and key variables.\n\nData Cleaning\n\nCheck for missing values and handle them appropriately.\nRecode categorical variables (e.g., gender, season) as factors.\n\nPurchase Amount Distribution\n\nCreate a histogram of purchase amounts.\nAdd axis labels and a title.\nBriefly describe the distribution.\n\nSpending by Gender\n\nCreate a boxplot comparing purchase amounts by gender.\nWhat does the plot suggest about gender-based spending?\n\nSpending by Product Category\n\nCreate a bar chart showing average purchase amount per product category.\nUse group_by() and summarise() to prepare the data.\n\nSeasonal Spending Patterns\n\nCreate a bar chart showing total purchase amount by season.\nCustomize colors and labels.\n\nAge Group Analysis\n\nCreate age groups (e.g., 18–25, 26–35, etc.) using cut().\nCompare average purchase amounts across age groups using a bar chart.\n\nAnnotated Insight\n\nChoose one plot and add annotations using geom_text() or geom_label()\nHighlight a key insight and explain its relevance for retail strategy.\n\nSave Your Visuals\n\nSave at least three plots as PNG files using ggsave().\nInclude filenames and dimensions in your code.\n\nReflection\n\nWrite a short reflection (150–200 words) on how data visualization can support retail decision-making and customer segmentation.",
     "crumbs": [
-      "Topics",
-      "Module 1: Introduction to R programming"
+      "Midterm and Finals projects",
+      "Midterm project: Earthquake and tsunami analysis"
     ]
   },
   {
-    "objectID": "01-course-outline.html",
-    "href": "01-course-outline.html",
-    "title": "Course outline",
+    "objectID": "m6-test-means.html",
+    "href": "m6-test-means.html",
+    "title": "Module 6: Tests on means and chi-square test",
     "section": "",
-    "text": "Week\nTopics\nLessons\nActivities\n\n\n\n\nWeek 1-2\nFoundation of academic writing\n\nOverview of academic writing genres and their purposes.\nDiscussion of the key principles of academic writing.\nIntroduction to the structure of academic papers.\n\n\n\n\nWeek 3-4\nDeveloping research methods\n\nFormulating research topics and research questions.\nIdentifying relevant literature and conducting a literature review.\nDeveloping a thesis statement and creating an outline for a research paper.\n\n\n\n\nWeek 5-6\nWriting first darf\n\nWriting effective introductions and conclusions.\nCrafting clear and concise methods and results section.\nWriting persuasive literature and discussions.\nUsing appropriate language and tone in academic writing.\n\n\n\n\nWeek 7-8\nRevising and editing\n\nStrategies for revising and editing academic writing.\nPeer review and feedback exercises.\nUsing tools and resources for editing and proofreading.\n\n\n\n\nWeek 9-10\nNavigating peer-review process\n\nOverview of the peer-review process in academic publishing.\nSelecting appropriate journals for submission.\nPreparing manuscripts for submission.\nResponding to reviewer feedback and revising manuscripts.\n\n\n\n\nWeek 11-12\nEthical considerations in publishing\n\nDiscussion of plagiarism, authorship, and other ethical issues in academic publishing.\nIntroduction to copyright and intellectual property.\nExploration of open access and alternative publishing models.\n\n\n\n\nWeek 13-14\nConference presentation and other scholarly outputs\n\nPreparing and delivering effective conference presentations.\nWriting conference abstracts and proposal.\nExploring other scholarly outputs.\n\n\n\n\nWeek 15-16\nFinal project presentations and discussion\n\nPresentation of final research papers and other scholarly projects.\nDiscussion and feedback from peers and instructor.\nReflections on the course and future goals in academic writing and publishing."
+    "text": "Introduction to hypothesis testing\nParametric vs non-parametric tests\nIndependent samples t-test\nPaired samples t-test\nOne-way ANOVA\nChi-square test\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+  },
+  {
+    "objectID": "m4-survey-research-design.html",
+    "href": "m4-survey-research-design.html",
+    "title": "Module 4: Survey research design",
+    "section": "",
+    "text": "Methods of data collection\nSampling desing in surveys\nMeasurement issues in survey research\nQuestionnaire construction\nBasics of interviewing\nCreating codebook\nData entry\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+  },
+  {
+    "objectID": "m2-intro-data-viz-ggplot.html",
+    "href": "m2-intro-data-viz-ggplot.html",
+    "title": "Module 2: Intro to data visualization using ggplot2",
+    "section": "",
+    "text": "The grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Module 2: Intro to data visualization using ggplot2"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Econ115a: Econometrics Lab",
+    "section": "",
+    "text": "Laboratory schedule: Wednesday | 13:00 - 16:00  Instructor: Christopher Llones  e-mail: christopher.llones@vsu.edu.ph  Pre-requisites: Stat21 or introductory statistics  Course credits: 3 units  Number of hours: 2 hrs lectures and 3 hrs laboratory per week \n\n\nCourse description\nThis laboratory course offers a practical, data-driven introduction to statistical methods used in economic research and policy analysis, with a particular focus on survey data. Students will engage with both foundational and advanced techniques for analyzing real-world datasets, emphasizing hands-on implementation, critical interpretation, and reproducible reporting.\nKey topics include:\n\nFundamentals of statistical inference and data exploration\nSurvey design and measurement reliability\nAssumption testing and model diagnostics\nCorrelation analysis and regression modeling (linear, logistic, and limited-dependent)\nHypothesis testing for means and group comparisons\nNon-parametric statistical techniques\nMultivariate methods including exploratory factor analysis\n\nStudents will use R—a powerful statistical programming language—to clean and visualize data, conduct analyses, and generate publication-ready outputs. By the end of the course, students will be equipped to design surveys, analyze empirical data, and communicate findings with clarity, rigor, and policy relevance.\n\n\nCourse objectives\nBy the end of the course, students will be able to:\n\nDesign and implement valid survey instruments\nConduct exploratory data analysis (EDA) on survey datasets\nEvaluate statistical assumptions and model fit\nApply correlation and regression techniques, including models for limited-dependent variables\nPerform parametric and non-parametric hypothesis tests\nImplement multivariate techniques such as factor analysis and clustering\nUse R for data wrangling, visualization, and reproducible reporting\nInterpret and communicate statistical findings in academic and policy contexts\nCritically assess empirical research for methodological soundness and relevance\n\n\n\nCourse outline\n\n\n\n\n\n\n\n\nTopics\nLessons\nDescription\n\n\n\n\nModule 1: Introduction to R Programming\n\nInstalling R and RStudio\nR Basics\nWorking with R scripts\nImporting data\nBasic data wrangling\n\n\nLearn to install and configure R and RStudio.\nUnderstand and apply basic R syntax including data types, vectors, and data frames.\nDevelop proficiency in writing, saving, and executing R scripts.\nImport dataset and prepare them for analysis.\nClean and transform data .\n\n\n\nModule 2: Introduction to data visualization using ggplot2\n\nUnderstanding grammar of graphics\nDataset and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\n\n\nUnderstand the grammar of graphics and its role in structuring visualizations.\nCreate and customize basic plots including histograms, bar charts, boxplots, and scatterplot.\nMap variables to visual aesthetics such as color, shape, and size to enhance interpretability.\nApply faceting techniques to produce multi-panel plots for comparative analysis.\nModify plot themes and coordinate systems to improve clarity and accessibility.\nExport visualizations for use in reports, presentations, policy briefs, and others.\n\n\n\nModule 3: Reproducible report with Quarto in R\n\nIntroduction to Quarto\nCreating Quarto document\nEmbedding R code\nFormatting Outputs\nExporting reports\n\n\nLearn to create dynamic, reproducible documents using Quarto and markdown syntax.\nEmbed R code and inline calculations within narrative text to integrate analysis and interpretation.\nFormat outputs such as tables and plots for professional presentation.\nRender reports to multiple formats including HTML, PDF, and Word for diverse audiences.\nDevelop the ability to produce transparent, replicable research outputs for academic and policy contexts.\n\n\n\nModule 1: survey research design\n\nMethods of data collection\nSampling design in surveys\nMeasurement issues in survey research\nQuestionnaire construction\nBasics of interviewing\nCreating a codebook\nData entry\n\n\nDiscuss the various methods of data collection including survey, observation and experimental methods.\nDiscuss different ways for gathering a sample; random and non-random sampling. Discuss rudimentary formulas for sample size calculation.\nDiscuss the issues in assigning numbers to represent quantities of attributes. Discuss the various scales of measurement. Discuss criteria in constructing good measurement of variables: reliablity and validity.\nDiscuss the various advantages and disadvantages of interviews and questionnaire over other methods of data collection.\nDiscuss the do’s and dont’s of an interviewer’s conduct.\nDiscuss the importance of creating a codebook for survey data.\nDiscuss rudimentary of data entry.\n\n\n\nModule 2: exploratory data analysis\n\nRudiments of EDA\nCharts and tables\nMeasures of central tendency\nDispersion, parameters, skewness and kurtosis\nContingency tables and scatter plot\n\n\nDiscuss EDA as the first step in data analysis.\nDiscuss various techniques in summarizing and visualizing data.\nDiscuss the various measures of central tendency and data location.\nDiscuss the relevance of various dispersion, parameters, skewness and kurtosis.\nDiscuss the relevance of contingency tables and scatterplots for summarizing and visualizing data.\n\n\n\nModule 3: test on means\n\nParametric test on means\nNon-parametric test on means\n\n\nDiscuss the various t-tests and ANOVA and perform them on a sample data with R.\nPerform various non-parametric equivalent of the t-tests and ANOVA on sample data with R.\n\n\n\nModule 4: correlation and regression analysis\n\nCorrelation analysis\nReview of Regression analysis\n\n\nDiscuss the various types of correlation analysis procedures. Interpret the correlation coefficient.\nDiscuss the various aspects of regression model building.\n\n\n\nModule 5: limited-dependent variable models\n\nReview of binary dependent regression\nExtension to the logit model.\nCensored and truncated regression models.\nCount dependent variable models.\n\n\nDiscuss the various aspects of the logit and probit.\nDiscuss the multinomial and ordinal logit models.\nDiscuss the Tobit regression model for censored data and truncated regression models.\nDiscuss Poisson and Negative Binomial regression models in the regression analysis of count-dependent variable models.\n\n\n\nModule 6: multivariate statistical analysis\n\nCluster analysis\nPrincipal component analysis\nExploratory factor analysis\nConfirmatory factor anlysis\nStructural equation modelling\n\n\nUnderstand and apply different clustering methods. Analyze and evaluate the quality and effectiveness of different clusters in dataset.\nLearn to perform and interpret principal component analysis to reduce the dimensionality of dataset. Develop the ability to identify and retain significant components for simplifying data without losing critical information.\nIdentify and estimate underlying factor structures within a set of observed variables.\nUnderstand model-based factor anlaysis and develop proficiency in evaluating model fit and making necessary adjustments to improve analysis.\nApply SEM techniques to understand relationships among variables and construct theoretical models.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "01-assignment1-coffee-sales.html",
@@ -109,38 +123,79 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Econ115a: Econometrics Lab",
+    "objectID": "01-course-outline.html",
+    "href": "01-course-outline.html",
+    "title": "Course outline",
     "section": "",
-    "text": "Laboratory schedule: Wednesday | 13:00 - 16:00  Instructor: Christopher Llones  e-mail: christopher.llones@vsu.edu.ph  Pre-requisites: Stat21 or introductory statistics  Course credits: 3 units  Number of hours: 2 hrs lectures and 3 hrs laboratory per week \n\n\nCourse description\nThis laboratory course offers a practical, data-driven introduction to statistical methods used in economic research and policy analysis, with a particular focus on survey data. Students will engage with both foundational and advanced techniques for analyzing real-world datasets, emphasizing hands-on implementation, critical interpretation, and reproducible reporting.\nKey topics include:\n\nFundamentals of statistical inference and data exploration\nSurvey design and measurement reliability\nAssumption testing and model diagnostics\nCorrelation analysis and regression modeling (linear, logistic, and limited-dependent)\nHypothesis testing for means and group comparisons\nNon-parametric statistical techniques\nMultivariate methods including exploratory factor analysis\n\nStudents will use R—a powerful statistical programming language—to clean and visualize data, conduct analyses, and generate publication-ready outputs. By the end of the course, students will be equipped to design surveys, analyze empirical data, and communicate findings with clarity, rigor, and policy relevance.\n\n\nCourse objectives\nBy the end of the course, students will be able to:\n\nDesign and implement valid survey instruments\nConduct exploratory data analysis (EDA) on survey datasets\nEvaluate statistical assumptions and model fit\nApply correlation and regression techniques, including models for limited-dependent variables\nPerform parametric and non-parametric hypothesis tests\nImplement multivariate techniques such as factor analysis and clustering\nUse R for data wrangling, visualization, and reproducible reporting\nInterpret and communicate statistical findings in academic and policy contexts\nCritically assess empirical research for methodological soundness and relevance\n\n\n\nCourse outline\n\n\n\n\n\n\n\n\nTopics\nLessons\nDescription\n\n\n\n\nModule 1: Introduction to R Programming\n\nInstalling R and RStudio\nR Basics\nWorking with R scripts\nImporting data\nBasic data wrangling\n\n\nLearn to install and configure R and RStudio.\nUnderstand and apply basic R syntax including data types, vectors, and data frames.\nDevelop proficiency in writing, saving, and executing R scripts.\nImport dataset and prepare them for analysis.\nClean and transform data .\n\n\n\nModule 2: Introduction to data visualization using ggplot2\n\nUnderstanding grammar of graphics\nDataset and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\n\n\nUnderstand the grammar of graphics and its role in structuring visualizations.\nCreate and customize basic plots including histograms, bar charts, boxplots, and scatterplot.\nMap variables to visual aesthetics such as color, shape, and size to enhance interpretability.\nApply faceting techniques to produce multi-panel plots for comparative analysis.\nModify plot themes and coordinate systems to improve clarity and accessibility.\nExport visualizations for use in reports, presentations, policy briefs, and others.\n\n\n\nModule 3: Reproducible report with Quarto in R\n\nIntroduction to Quarto\nCreating Quarto document\nEmbedding R code\nFormatting Outputs\nExporting reports\n\n\nLearn to create dynamic, reproducible documents using Quarto and markdown syntax.\nEmbed R code and inline calculations within narrative text to integrate analysis and interpretation.\nFormat outputs such as tables and plots for professional presentation.\nRender reports to multiple formats including HTML, PDF, and Word for diverse audiences.\nDevelop the ability to produce transparent, replicable research outputs for academic and policy contexts.\n\n\n\nModule 1: survey research design\n\nMethods of data collection\nSampling design in surveys\nMeasurement issues in survey research\nQuestionnaire construction\nBasics of interviewing\nCreating a codebook\nData entry\n\n\nDiscuss the various methods of data collection including survey, observation and experimental methods.\nDiscuss different ways for gathering a sample; random and non-random sampling. Discuss rudimentary formulas for sample size calculation.\nDiscuss the issues in assigning numbers to represent quantities of attributes. Discuss the various scales of measurement. Discuss criteria in constructing good measurement of variables: reliablity and validity.\nDiscuss the various advantages and disadvantages of interviews and questionnaire over other methods of data collection.\nDiscuss the do’s and dont’s of an interviewer’s conduct.\nDiscuss the importance of creating a codebook for survey data.\nDiscuss rudimentary of data entry.\n\n\n\nModule 2: exploratory data analysis\n\nRudiments of EDA\nCharts and tables\nMeasures of central tendency\nDispersion, parameters, skewness and kurtosis\nContingency tables and scatter plot\n\n\nDiscuss EDA as the first step in data analysis.\nDiscuss various techniques in summarizing and visualizing data.\nDiscuss the various measures of central tendency and data location.\nDiscuss the relevance of various dispersion, parameters, skewness and kurtosis.\nDiscuss the relevance of contingency tables and scatterplots for summarizing and visualizing data.\n\n\n\nModule 3: test on means\n\nParametric test on means\nNon-parametric test on means\n\n\nDiscuss the various t-tests and ANOVA and perform them on a sample data with R.\nPerform various non-parametric equivalent of the t-tests and ANOVA on sample data with R.\n\n\n\nModule 4: correlation and regression analysis\n\nCorrelation analysis\nReview of Regression analysis\n\n\nDiscuss the various types of correlation analysis procedures. Interpret the correlation coefficient.\nDiscuss the various aspects of regression model building.\n\n\n\nModule 5: limited-dependent variable models\n\nReview of binary dependent regression\nExtension to the logit model.\nCensored and truncated regression models.\nCount dependent variable models.\n\n\nDiscuss the various aspects of the logit and probit.\nDiscuss the multinomial and ordinal logit models.\nDiscuss the Tobit regression model for censored data and truncated regression models.\nDiscuss Poisson and Negative Binomial regression models in the regression analysis of count-dependent variable models.\n\n\n\nModule 6: multivariate statistical analysis\n\nCluster analysis\nPrincipal component analysis\nExploratory factor analysis\nConfirmatory factor anlysis\nStructural equation modelling\n\n\nUnderstand and apply different clustering methods. Analyze and evaluate the quality and effectiveness of different clusters in dataset.\nLearn to perform and interpret principal component analysis to reduce the dimensionality of dataset. Develop the ability to identify and retain significant components for simplifying data without losing critical information.\nIdentify and estimate underlying factor structures within a set of observed variables.\nUnderstand model-based factor anlaysis and develop proficiency in evaluating model fit and making necessary adjustments to improve analysis.\nApply SEM techniques to understand relationships among variables and construct theoretical models.",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "Week\nTopics\nLessons\nActivities\n\n\n\n\nWeek 1-2\nFoundation of academic writing\n\nOverview of academic writing genres and their purposes.\nDiscussion of the key principles of academic writing.\nIntroduction to the structure of academic papers.\n\n\n\n\nWeek 3-4\nDeveloping research methods\n\nFormulating research topics and research questions.\nIdentifying relevant literature and conducting a literature review.\nDeveloping a thesis statement and creating an outline for a research paper.\n\n\n\n\nWeek 5-6\nWriting first darf\n\nWriting effective introductions and conclusions.\nCrafting clear and concise methods and results section.\nWriting persuasive literature and discussions.\nUsing appropriate language and tone in academic writing.\n\n\n\n\nWeek 7-8\nRevising and editing\n\nStrategies for revising and editing academic writing.\nPeer review and feedback exercises.\nUsing tools and resources for editing and proofreading.\n\n\n\n\nWeek 9-10\nNavigating peer-review process\n\nOverview of the peer-review process in academic publishing.\nSelecting appropriate journals for submission.\nPreparing manuscripts for submission.\nResponding to reviewer feedback and revising manuscripts.\n\n\n\n\nWeek 11-12\nEthical considerations in publishing\n\nDiscussion of plagiarism, authorship, and other ethical issues in academic publishing.\nIntroduction to copyright and intellectual property.\nExploration of open access and alternative publishing models.\n\n\n\n\nWeek 13-14\nConference presentation and other scholarly outputs\n\nPreparing and delivering effective conference presentations.\nWriting conference abstracts and proposal.\nExploring other scholarly outputs.\n\n\n\n\nWeek 15-16\nFinal project presentations and discussion\n\nPresentation of final research papers and other scholarly projects.\nDiscussion and feedback from peers and instructor.\nReflections on the course and future goals in academic writing and publishing."
   },
   {
-    "objectID": "m2-intro-data-viz-ggplot.html",
-    "href": "m2-intro-data-viz-ggplot.html",
-    "title": "Module 2: Intro to data visualization using ggplot2",
+    "objectID": "m1-intro-r.html",
+    "href": "m1-intro-r.html",
+    "title": "Module 1: Intro to R programming",
     "section": "",
-    "text": "The grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "text": "R objects\nR packages\nReading data in R\nBasic data wrangling\nView slides in new window",
     "crumbs": [
       "Topics",
-      "Module 2: Intro to data visualization using ggplot2"
+      "Module 1: Introduction to R programming"
     ]
   },
   {
-    "objectID": "m4-survey-research-design.html",
-    "href": "m4-survey-research-design.html",
-    "title": "Module 4: Survey research design",
-    "section": "",
-    "text": "Methods of data collection\nSampling desing in surveys\nMeasurement issues in survey research\nQuestionnaire construction\nBasics of interviewing\nCreating codebook\nData entry\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+    "objectID": "m1-intro-r.html#exercises",
+    "href": "m1-intro-r.html#exercises",
+    "title": "Module 1: Intro to R programming",
+    "section": "Exercises",
+    "text": "Exercises\n\nInstall R and RStudio on your computer.\nDownload the entire folder 00-module-intro-r from the Google Drive link. For the meantime, keep the folder in your computer and wait for further instructions during the class.\nBefore the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.\n\n\n## install required packages\ninstall.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n\n\n\n\n\nImportant\n\n\n\nPlease make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.",
+    "crumbs": [
+      "Topics",
+      "Module 1: Introduction to R programming"
+    ]
   },
   {
-    "objectID": "m6-test-means.html",
-    "href": "m6-test-means.html",
-    "title": "Module 6: Tests on means and chi-square test",
+    "objectID": "m1-intro-r.html#class-demonstration-in-progress",
+    "href": "m1-intro-r.html#class-demonstration-in-progress",
+    "title": "Module 1: Intro to R programming",
+    "section": "Class demonstration in progress",
+    "text": "Class demonstration in progress\n\n# INTRO TO R AND BASIC DATA WRANGLING ----\n\n## Install packages\n# install.packages(\"readr\")\n# install.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))\n\n\n# 1. R Packages ----\nlibrary(readr) # reading csv files\nlibrary(readxl) # reading excel files\nlibrary(haven) # reading spss, sas, stata files\nlibrary(tidyverse) # load all packages under tidyverse environment\nlibrary(dplyr) # for data wrangling\nlibrary(skimr) # quick exploration of your data\nlibrary(janitor) # quick cleaning of dataset\nlibrary(gapminder)\n\n\n# 2. Set the working directory ----\nsetwd(\"D:/Githu-repository/econ148-analytical-stat-packages/148-class-demo/00-module-intro-r\")\n\n\n\n# 3. Reading data into R ----\n\n## 3.1 CSV files\n### Load swimming_pools.csv files using the read_csv() function\nswim_data &lt;- read_csv(\"sample_dataset/swimming_pools.csv\")\nswim_data\n\n### Load potatoes.csv using read_csv() and read.csv()\n#### Observe the difference in the output\n\npotato_data &lt;- read_csv(\"sample_dataset/potatoes.csv\")\npotato_data_2 &lt;- read.csv(\"sample_dataset/potatoes.csv\")\n\nView(potato_data)\n\n\n\n## 3.2 Excel files\n### Load urban_pop files and use the read_xls() and read_excel() functions\n### Save the data into a variable named urban_pop\n\nurban_pop &lt;- read_xls(\"sample_dataset/urbanpop.xls\")\n\n\n\n### Transform the urban_pop data into long-format\n\n\n\n## 3.2 SPSS files\n### Load HBAT.sav\n\nhbat_data &lt;- read_sav(\"sample_dataset/HBAT.sav\")\n\n### Load data from Stata online @ https://www.stata-press.com/data/r9/u.html\n### Use the link http://www.stata-press.com/data/r9/auto.dta and save the data into a variable named auto\n\nauto_data &lt;- read_dta(\"http://www.stata-press.com/data/r9/auto.dta\")\n\n\n## 3.3 Load SAS data\n### Read the SAS data from the eventrepository.sas7bdat file\n### Clean the variable names using the clean_names() function from janitor package\n\nevent_data &lt;- read_sas(\"sample_dataset/eventrepository.sas7bdat\")\nevent_data &lt;- clean_names(event_data)\n\n# 4. Basic data wrangling with tidyverse ----\n### Use gapminder dataset from gapminder package and save it into a variable named gapminder_data\n\ngapminder_data &lt;- gapminder::gapminder\n\n## 4.1 filter() ----\n### Using the gapminder_data, filter dataset for the year 1957\ngapminder_1957 &lt;- filter(gapminder_data, year == 1957)\n\n\n### Now, filter for Philippines in 2002\nfilter(gapminder_data, year &lt; 2000, country == \"Philippines\")\nfilter(gapminder_data, country == \"Philippines\")\n\n### Filter for the year 1957, then arrange in descending order of population\nfilter(gapminder_data, year == 1957)\n\narrange(filter(gapminder_data, year == 1957), desc(pop))\n\ngapminder_data |&gt; \n  filter(year == 1957) |&gt; \n  arrange(pop)\n\n\n\n## 4.2 mutate() ----\n### Use mutate to compute for GDP",
+    "crumbs": [
+      "Topics",
+      "Module 1: Introduction to R programming"
+    ]
+  },
+  {
+    "objectID": "m3-reproducible-quarto.html",
+    "href": "m3-reproducible-quarto.html",
+    "title": "Module 3: Reproducible report with Quarto in R",
     "section": "",
-    "text": "Introduction to hypothesis testing\nParametric vs non-parametric tests\nIndependent samples t-test\nPaired samples t-test\nOne-way ANOVA\nChi-square test\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+  },
+  {
+    "objectID": "m5-exploratory-data-analysis.html",
+    "href": "m5-exploratory-data-analysis.html",
+    "title": "Module 5: exploratory data analysis",
+    "section": "",
+    "text": "Overview of EDA\nCentrality and variability\nAmounts and proportions\nComparisons\nTrends\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+  },
+  {
+    "objectID": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
+    "href": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
+    "title": "Econ115a lab",
+    "section": "Your Mission: Complete the following tasks",
+    "text": "Your Mission: Complete the following tasks\n\nLoad and Inspect the Dataset\n\nLoad the CSV file into R.\nUse str(), summary(), and head() to inspect the structure and contents\nIdentify the number of observations and key variables.\n\nData Cleaning\n\nCheck for missing values and handle them appropriately.\nRecode categorical variables (e.g., gender, season) as factors.\n\nPurchase Amount Distribution\n\nCreate a histogram of purchase amounts.\nAdd axis labels and a title.\nBriefly describe the distribution.\n\nSpending by Gender\n\nCreate a boxplot comparing purchase amounts by gender.\nWhat does the plot suggest about gender-based spending?\n\nSpending by Product Category\n\nCreate a bar chart showing average purchase amount per product category.\nUse group_by() and summarise() to prepare the data.\n\nSeasonal Spending Patterns\n\nCreate a bar chart showing total purchase amount by season.\nCustomize colors and labels.\n\nAge Group Analysis\n\nCreate age groups (e.g., 18–25, 26–35, etc.) using cut().\nCompare average purchase amounts across age groups using a bar chart.\n\nAnnotated Insight\n\nChoose one plot and add annotations using geom_text() or geom_label()\nHighlight a key insight and explain its relevance for retail strategy.\n\nSave Your Visuals\n\nSave at least three plots as PNG files using ggsave().\nInclude filenames and dimensions in your code.\n\nReflection\n\nWrite a short reflection (150–200 words) on how data visualization can support retail decision-making and customer segmentation.",
+    "crumbs": [
+      "Midterm and Finals projects",
+      "Midterm project: Shopping behavior analysis"
+    ]
+  },
+  {
+    "objectID": "term-01-midterm-project.html#midterm-files-and-submission",
+    "href": "term-01-midterm-project.html#midterm-files-and-submission",
+    "title": "Econ115a lab",
+    "section": "Midterm files and submission:",
+    "text": "Midterm files and submission:\n\nAccess the midterm R script and dataset from this link: Midterm Project Files\nSubmit your midterm exam answer sheet (R script with code, plots, and explanations) via google form: Midterm Submission Form\nDeadline: November 5, 2025, 11:59 PM PST",
+    "crumbs": [
+      "Midterm and Finals projects",
+      "Midterm project: Shopping behavior analysis"
+    ]
   }
 ]

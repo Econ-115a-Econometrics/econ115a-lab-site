@@ -41,12 +41,15 @@ website:
           - href: ""
             text: "Module 9: non-parametric tests"
           - href: ""
-            text: "Module 10: Exploratory factor analysis (EFA)"
-            
+            text: "Module 10: Exploratory factor analysis (EFA)"  
       - section: "Assignment"
         contents:
           - href: "01-assignment1-coffee-sales.qmd"
             text: "Module 1 assignment"
+      - section: "Midterm and Finals projects"
+        contents:
+          - href: "term-01-midterm-project.qmd"
+            text: "Midterm project: Shopping behavior analysis"
 
 format:
   html:

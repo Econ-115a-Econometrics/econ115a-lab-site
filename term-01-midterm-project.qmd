@@ -1,0 +1,154 @@
+---
+title: ""
+---
+
+![](plot/econ115a-lab-midterm-project.png)
+
+
+## Scenario: Interning at a Retail Analytics Firm
+
+You’ve joined Insight Retail Analytics, a firm that helps brands understand consumer behavior to improve marketing and product strategies. Your team has received a dataset containing 3,900 customer records, including demographics (age, gender, income), product categories, purchase amounts, and seasonal preferences.
+
+Your supervisor has asked you to explore this dataset using R and `ggplot2` to uncover patterns in consumer spending. Your goal is to produce visual insights that can help retail managers understand customer behavior and 
+tailor promotions.s decisions.
+
+
+## Dataset description
+
+The Shopping Behavior Dataset provides detailed records of 3,900 retail transactions, capturing key demographic and behavioral attributes of customers. It includes variables such as age, gender, income, product category, purchase amount, and seasonal preferences. This dataset is ideal for exploring consumer trends, visualizing spending patterns, and practicing data management and descriptive analytics using R. The table below summarizes each variable, its type, description, and typical values or ranges.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(knitr)
+
+# Create the dataset summary table
+dataset_summary <- tibble(
+  `Variable Name` = c(
+    "Customer ID",
+    "Age",
+    "Gender",
+    "Item Purchased",
+    "Category",
+    "Purchase Amount (USD)",
+    "Location",
+    "Size",
+    "Color",
+    "Season"
+  ),
+  Type = c(
+    "Integer",
+    "Numeric",
+    "Categorical",
+    "Categorical",
+    "Categorical",
+    "Numeric",
+    "Categorical",
+    "Categorical",
+    "Categorical",
+    "Categorical"
+  ),
+  Description = c(
+    "Unique ID for each shopper record",
+    "Customer's age in years",
+    "Gender of the customer",
+    "Specific item bought",
+    "Type of product purchased",
+    "Total money spent on shopping",
+    "Geographic area or city of shopper",
+    "Size of item purchased",
+    "Color of item purchased",
+    "Season during which purchase occurred"
+  ),
+  `Range / Values` = c(
+    "1 to 3900",
+    "18 to 70",
+    'Male (68%), Female (32%)',
+    "25 unique items (e.g., Blouse, Pants)",
+    'Clothing (45%), Accessories (32%), Other',
+    "$20 to $100 (Mean: $59.8)",
+    "50 unique locations (e.g., Montana, California)",
+    'M (45%), L (27%), others',
+    "25 unique colors (e.g., Olive, Yellow)",
+    'Spring (26%), Fall (25%), others'
+  )
+)
+
+# Display the table
+# kable(dataset_summary)
+```
+
+```{r}
+#| echo: false
+
+# Alternative: Using gt package for prettier tables
+library(gt)
+
+dataset_summary |>
+  gt() |>
+  tab_header(
+    title = "Dataset Summary",
+    subtitle = "Shopping Customer Data (n = 3,900)"
+  ) |>
+  cols_align(
+    align = "left",
+    columns = everything()
+  )
+```
+
+
+
+## Your Mission: Complete the following tasks
+
+1. Load and Inspect the Dataset
+    - Load the CSV file into R.
+    - Use `str()`, `summary()`, and `head()` to inspect the structure and contents
+    - Identify the number of observations and key variables.
+
+2. Data Cleaning
+    - Check for missing values and handle them appropriately.
+    - Recode categorical variables (e.g., gender, season) as factors.
+
+3. Purchase Amount Distribution
+    - Create a histogram of purchase amounts.
+    - Add axis labels and a title.
+    - Briefly describe the distribution.
+
+4. Spending by Gender
+    - Create a boxplot comparing purchase amounts by gender.
+    - What does the plot suggest about gender-based spending?
+
+5. Spending by Product Category
+    - Create a bar chart showing average purchase amount per product category.
+    - Use `group_by()` and `summarise()` to prepare the data.
+
+6. Seasonal Spending Patterns
+    - Create a bar chart showing total purchase amount by season.
+    - Customize colors and labels.
+
+7. Age Group Analysis
+    - Create age groups (e.g., 18–25, 26–35, etc.) using `cut()`.
+    - Compare average purchase amounts across age groups using a bar chart.
+
+8. Annotated Insight
+    - Choose one plot and add annotations using `geom_text()` or `geom_label()`
+    - Highlight a key insight and explain its relevance for retail strategy.
+
+9. Save Your Visuals
+    - Save at least three plots as PNG files using `ggsave()`.
+    - Include filenames and dimensions in your code.
+
+10. Reflection
+    - Write a short reflection (150–200 words) on how data visualization can support retail decision-making and customer segmentation.
+
+
+## Midterm files and submission:
+
+1. Access the midterm R script and dataset from this link: [Midterm Project Files](https://drive.google.com/drive/folders/1i5re4obWki57oeIwvwrAm0WvL0PuLnp6?usp=sharing)
+
+2. Submit your midterm exam answer sheet (R script with code, plots, and explanations) via google form: [Midterm Submission Form](https://forms.gle/qUpdGZujckAAVr6N8) 
+
+3. Deadline: **November 5, 2025, 11:59 PM PST**
