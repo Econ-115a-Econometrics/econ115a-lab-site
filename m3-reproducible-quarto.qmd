@@ -3,11 +3,8 @@ title: "Module 3: Reproducible report with Quarto in R"
 ---
 
 1.  Introduction to Quarto
-
 2.  Quarto document elements
-
 3.  Exercise: generating reports
-
 4.  Improving report
 
 <a href="https://econ-115a-econometrics.github.io/econ115a-lectures/m3-reproducible-report" target="_blank" class="btn-slides">View slides in new window</a>
