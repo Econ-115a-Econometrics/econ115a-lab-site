@@ -22,14 +22,25 @@
     ]
   },
   {
-    "objectID": "term-01-midterm-project.html#your-mission-complete-the-following-10-tasks",
-    "href": "term-01-midterm-project.html#your-mission-complete-the-following-10-tasks",
+    "objectID": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
+    "href": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
     "title": "Econ115a lab",
-    "section": "Your Mission: Complete the Following 10 Tasks",
-    "text": "Your Mission: Complete the Following 10 Tasks\n\nLoad and Inspect the Dataset\n\nLoad the CSV file into R.\nUse str(), summary(), and head() to inspect the structure and contents\nIdentify the number of observations and key variables.\n\nData Cleaning\n\nCheck for missing values and handle them appropriately.\nRecode categorical variables (e.g., gender, season) as factors.\n\nPurchase Amount Distribution\n\nCreate a histogram of purchase amounts.\nAdd axis labels and a title.\nBriefly describe the distribution.\n\nSpending by Gender\n\nCreate a boxplot comparing purchase amounts by gender.\nWhat does the plot suggest about gender-based spending?\n\nSpending by Product Category\n\nCreate a bar chart showing average purchase amount per product category.\nUse group_by() and summarise() to prepare the data.\n\nSeasonal Spending Patterns\n\nCreate a bar chart showing total purchase amount by season.\nCustomize colors and labels.\n\nAge Group Analysis\n\nCreate age groups (e.g., 18–25, 26–35, etc.) using cut().\nCompare average purchase amounts across age groups using a bar chart.\n\nAnnotated Insight\n\nChoose one plot and add annotations using geom_text() or geom_label()\nHighlight a key insight and explain its relevance for retail strategy.\n\nSave Your Visuals\n\nSave at least three plots as PNG files using ggsave().\nInclude filenames and dimensions in your code.\n\nReflection\n\nWrite a short reflection (150–200 words) on how data visualization can support retail decision-making and customer segmentation.",
+    "section": "Your Mission: Complete the following tasks",
+    "text": "Your Mission: Complete the following tasks\n\nLoad and Inspect the Dataset\n\nLoad the CSV file into R.\nUse str(), summary(), and head() to inspect the structure and contents\nIdentify the number of observations and key variables.\n\nData Cleaning\n\nCheck for missing values and handle them appropriately.\nRecode categorical variables (e.g., gender, season) as factors.\n\nPurchase Amount Distribution\n\nCreate a histogram of purchase amounts.\nAdd axis labels and a title.\nBriefly describe the distribution.\n\nSpending by Gender\n\nCreate a boxplot comparing purchase amounts by gender.\nWhat does the plot suggest about gender-based spending?\n\nSpending by Product Category\n\nCreate a bar chart showing average purchase amount per product category.\nUse group_by() and summarise() to prepare the data.\n\nSeasonal Spending Patterns\n\nCreate a bar chart showing total purchase amount by season.\nCustomize colors and labels.\n\nAge Group Analysis\n\nCreate age groups (e.g., 18–25, 26–35, etc.) using cut().\nCompare average purchase amounts across age groups using a bar chart.\n\nAnnotated Insight\n\nChoose one plot and add annotations using geom_text() or geom_label()\nHighlight a key insight and explain its relevance for retail strategy.\n\nSave Your Visuals\n\nSave at least three plots as PNG files using ggsave().\nInclude filenames and dimensions in your code.\n\nReflection\n\nWrite a short reflection (150–200 words) on how data visualization can support retail decision-making and customer segmentation.",
     "crumbs": [
       "Midterm and Finals projects",
-      "Midterm project: Earthquake and tsunami analysis"
+      "Midterm project: Shopping behavior analysis"
+    ]
+  },
+  {
+    "objectID": "term-01-midterm-project.html#midterm-files-and-submission",
+    "href": "term-01-midterm-project.html#midterm-files-and-submission",
+    "title": "Econ115a lab",
+    "section": "Midterm files and submission:",
+    "text": "Midterm files and submission:\n\nAccess the midterm R script and dataset from this link: Midterm Project Files\nSubmit your midterm exam answer sheet (R script with code, plots, and explanations) via google form: Midterm Submission Form\nDeadline: November 5, 2025, 11:59 PM PST",
+    "crumbs": [
+      "Midterm and Finals projects",
+      "Midterm project: Shopping behavior analysis"
     ]
   },
   {
@@ -74,7 +85,7 @@
     "section": "",
     "text": "Course title: Econ115a: Econometrics  Instructor: Christopher Llones  Assignment: Coffee Sales Dataset Analysis in R  Due Date: 15 October 2025",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -85,7 +96,7 @@
     "section": "Objective",
     "text": "Objective\nThis assignment will help you apply R programming skills to analyze real-world sales data from a coffee shop. You’ll use dplyr and other relevant packages to explore customer behavior, beverage preferences, and sales performance across time and payment methods.",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -96,7 +107,7 @@
     "section": "Instructions",
     "text": "Instructions\n\nUse R and the dplyr package to answer each question.\nSubmit your R script file (.R) with your code and outputs.\nUse the pipe operator (%&gt;%) for all data manipulations.\nYou may use additional packages like lubridate, ggplot2, or stringr if needed.\nEnsure your code is clean, commented, and reproducible.\n\n\n\n\n\n\n\nDataset and files\n\n\n\n\nAccess the dataset and R script template from the econ115a-assignment1 folder.\nSubmit your completed R script file (.R) by the due date and upload using this link: Submission Link.",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -107,7 +118,7 @@
     "section": "Questions",
     "text": "Questions\nPart 1: Data exploration\n\nHow many rows and columns are in the dataset?\nList all unique coffee types sold.\nWhat are the earliest and latest transaction dates?\n\nPart 2: sales behavior\n\nWhat is the total revenue generated across all transactions?\nWhich beverage type generated the highest total sales?\nWhat is the average amount spent per transaction?\n\nPart 3: time-based analysis\n\nWhich time of day (Morning, Afternoon, Evening) had the highest average spending?\nWhich weekday had the most transactions?\nWhat is the most popular beverage during the evening?\n\nPart 4: payment method insights\n\nCompare total revenue between cash and card payments.\nWhat percentage of transactions were made using card?\nIs there a noticeable spending difference between payment methods?\n\nBonus Challenge\n\nCreate a monthly summary of total sales. Which month had the highest revenue?\nIdentify any beverage that consistently appears in high-spending transactions (above ₱35).",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -118,7 +129,7 @@
     "section": "Grading rubrics",
     "text": "Grading rubrics\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (5pts)\nGood (4pts)\nFair (2-3 pts)\nNeeds improvement (0-1 pt)\n\n\n\n\nCode accuracy\nAll answers are correct and match expected outputs.\nMost answers are correct with minor errors.\nSeveral answers are incorrect or incomplete.\nMany answers are missing or incorrect.\n\n\nUse of dplyr Functions\nConsistently uses appropriate dplyr verbs (filter, mutate, summarise, etc.).\nUses dplyr functions correctly in most cases.\nUses some dplyr functions but inconsistently or incorrectly.\nRarely uses dplyr or misuses functions.\n\n\nPipe Operator Usage (%&gt;%)\nPipe operator is used fluently and correctly throughout.\nMostly correct usage with occasional syntax issues.\nUsed sporadically or with frequent errors.\nNot used or used incorrectly.\n\n\nData Manipulation & Filtering\nDemonstrates strong understanding of filtering, grouping, and summarizing.\nShows good grasp with minor gaps.\nBasic filtering and grouping attempted but lacks depth.\nLittle to no meaningful data manipulation.\n\n\nInsight & Interpretation\nProvides thoughtful insights or observations where applicable.\nSome interpretation is present.\nMinimal interpretation or unclear reasoning.\nNo interpretation or irrelevant commentary.\n\n\nBonus Challenge (Q13–Q14)\nCompleted with correct logic and creative approach.\nAttempted with mostly correct logic.\nAttempted but contains errors or lacks clarity.\nNot attempted or incorrect.\n\n\nReproducibility\nCode runs without errors and produces expected results.\nMinor issues but generally reproducible.\nSome errors prevent full reproducibility.\nCode fails to run or produces major errors.",
     "crumbs": [
-      "Topics",
+      "Assignment",
       "Module 1 assignment"
     ]
   },
@@ -167,7 +178,11 @@
     "href": "m3-reproducible-quarto.html",
     "title": "Module 3: Reproducible report with Quarto in R",
     "section": "",
-    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Module 3: Reproducible report with Quarto in R"
+    ]
   },
   {
     "objectID": "m5-exploratory-data-analysis.html",
@@ -175,27 +190,5 @@
     "title": "Module 5: exploratory data analysis",
     "section": "",
     "text": "Overview of EDA\nCentrality and variability\nAmounts and proportions\nComparisons\nTrends\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
-  },
-  {
-    "objectID": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
-    "href": "term-01-midterm-project.html#your-mission-complete-the-following-tasks",
-    "title": "Econ115a lab",
-    "section": "Your Mission: Complete the following tasks",
-    "text": "Your Mission: Complete the following tasks\n\nLoad and Inspect the Dataset\n\nLoad the CSV file into R.\nUse str(), summary(), and head() to inspect the structure and contents\nIdentify the number of observations and key variables.\n\nData Cleaning\n\nCheck for missing values and handle them appropriately.\nRecode categorical variables (e.g., gender, season) as factors.\n\nPurchase Amount Distribution\n\nCreate a histogram of purchase amounts.\nAdd axis labels and a title.\nBriefly describe the distribution.\n\nSpending by Gender\n\nCreate a boxplot comparing purchase amounts by gender.\nWhat does the plot suggest about gender-based spending?\n\nSpending by Product Category\n\nCreate a bar chart showing average purchase amount per product category.\nUse group_by() and summarise() to prepare the data.\n\nSeasonal Spending Patterns\n\nCreate a bar chart showing total purchase amount by season.\nCustomize colors and labels.\n\nAge Group Analysis\n\nCreate age groups (e.g., 18–25, 26–35, etc.) using cut().\nCompare average purchase amounts across age groups using a bar chart.\n\nAnnotated Insight\n\nChoose one plot and add annotations using geom_text() or geom_label()\nHighlight a key insight and explain its relevance for retail strategy.\n\nSave Your Visuals\n\nSave at least three plots as PNG files using ggsave().\nInclude filenames and dimensions in your code.\n\nReflection\n\nWrite a short reflection (150–200 words) on how data visualization can support retail decision-making and customer segmentation.",
-    "crumbs": [
-      "Midterm and Finals projects",
-      "Midterm project: Shopping behavior analysis"
-    ]
-  },
-  {
-    "objectID": "term-01-midterm-project.html#midterm-files-and-submission",
-    "href": "term-01-midterm-project.html#midterm-files-and-submission",
-    "title": "Econ115a lab",
-    "section": "Midterm files and submission:",
-    "text": "Midterm files and submission:\n\nAccess the midterm R script and dataset from this link: Midterm Project Files\nSubmit your midterm exam answer sheet (R script with code, plots, and explanations) via google form: Midterm Submission Form\nDeadline: November 5, 2025, 11:59 PM PST",
-    "crumbs": [
-      "Midterm and Finals projects",
-      "Midterm project: Shopping behavior analysis"
-    ]
   }
 ]
