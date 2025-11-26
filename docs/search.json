@@ -189,6 +189,10 @@
     "href": "m5-exploratory-data-analysis.html",
     "title": "Module 5: exploratory data analysis",
     "section": "",
-    "text": "Overview of EDA\nCentrality and variability\nAmounts and proportions\nComparisons\nTrends\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+    "text": "Overview of EDA\nExamining numerical data\nConsidering categorical data\nCentrality and variability\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Module 5: exploratory data analysis"
+    ]
   }
 ]
